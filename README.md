@@ -1,4 +1,4 @@
-# Para reproduction
+# Paper reproduction
 ## Controlling Thinking Speed in Reasoning Models
 ## this product aim to reproduct a para named Controlling Thinking Speed in Reasoning Models (https://github.com/D2I-ai/thinking-speed-control) to start my study.
 ## 论文内容：
@@ -8,3 +8,10 @@
 ## 我的代码：
 1. 如何使用可以参考论文原始项目仓库
 2. 以下是我的代码介绍：
+   count_token.py-计算输出token数
+   get_answer_all.py-提取出大模型的回答
+   get_hidden.py-得到中间隐藏状态
+   get_initial_segment.py-得到推理链前几步
+   judge_answer.py-判断回答正确与否
+   new_wait.py-模型重复思考
+   train_fast_to_slow.py-得到方向向量
